@@ -1,13 +1,73 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi primera página web</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .contenedor {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #cbd5e1;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 10px;
+      background: #38bdf8;
+      color: #0f172a;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #7dd3fc;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Mi primera página web</h1>
-  <p>Hola, gente bella.</p>
-  <button>¡Empezar!</button>
+  <div class="contenedor">
+    <h1>Mi primera página web</h1>
+
+    <p>
+      Hola, gente bella. Estoy aprendiendo
+      programación y este es mi primer proyecto.
+    </p>
+
+    <button>¡Empezar!</button>
+  </div>
 </body>
 </html>
